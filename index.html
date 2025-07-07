@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Strike Gold Shop</title>
+</head>
+<body>
+    <h1>Welcome to Blood Strike Gold Shop</h1>
+    <form method="POST">
+        <label>Blood Strike UID:</label><br>
+        <input type="text" name="uid" required><br><br>
+
+        <label>Server (optional):</label><br>
+        <input type="text" name="server"><br><br>
+
+        <label>Select Gold Pack:</label><br>
+        <select name="gold_pack">
+            <option value="1000">1,000 Gold - 1,000 MMK</option>
+            <option value="5000">5,000 Gold - 4,500 MMK</option>
+            <option value="12000">12,000 Gold - 10,000 MMK</option>
+            <option value="30000">30,000 Gold - 23,000 MMK</option>
+        </select><br><br>
+
+        <label>Payment Method:</label><br>
+        <input type="radio" name="payment" value="KBZ Pay" checked> KBZ Pay<br>
+        <input type="radio" name="payment" value="Wave Money"> Wave Money<br><br>
+
+        <label>Transaction ID or Upload Slip:</label><br>
+        <input type="text" name="txn_id" placeholder="e.g., 02834727"><br><br>
+
+        <label>🔑 Secret Key (optional):</label><br>
+        <input type="password" name="secret_key" placeholder="Enter only if you are owner"><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+
+    <p>Pay to: 05456065414 (Mya Myat Soe)</p>
+</body>
+</html>
